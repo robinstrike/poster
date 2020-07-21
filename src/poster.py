@@ -1,3 +1,6 @@
+# this script posts the names
+# run this after app.py
+
 import requests
 import json
 
