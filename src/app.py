@@ -1,3 +1,6 @@
+# this script collects names from 2 sources and 
+# stores them in names.json
+
 from bs4 import BeautifulSoup as bs
 import requests
 import json
