@@ -1,5 +1,6 @@
 # this script collects names from 2 sources and 
-# stores them in names.json
+# stores them in names.json 
+# run this before running poster.py
 
 from bs4 import BeautifulSoup as bs
 import requests
