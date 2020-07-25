@@ -14,6 +14,7 @@ page = requests.get(url)
 
 names = json.loads(open('names.json').read())
 
+# payload is html form data in url
 for girl in names:
     payload = {'vname': 'naveen', 'cname': girl, 'sid': 't3drjdouo87u4kg'}
     requests.post(url = urls, data = payload)
