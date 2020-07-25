@@ -45,6 +45,7 @@ namesj = json.dumps(names)
 
 filee = open(file = "names.json", mode = "w")
 filee.write(namesj)
+filee.close() 
 
 # for name in names:
 #     file = open(file = "names.txt", mode = "a")
